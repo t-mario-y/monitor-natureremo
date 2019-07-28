@@ -1,0 +1,24 @@
+{
+  "name": "monitor-natureremo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/t-mario-y/monitor-natureremo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/t-mario-y/monitor-natureremo/issues"
+  },
+  "homepage": "https://github.com/t-mario-y/monitor-natureremo#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
