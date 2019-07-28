@@ -2,9 +2,9 @@
   "name": "monitor-natureremo",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "start": "node index",
+    "start": "node ./bin/www",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,6 +19,11 @@
   },
   "homepage": "https://github.com/t-mario-y/monitor-natureremo#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1"
   }
 }
